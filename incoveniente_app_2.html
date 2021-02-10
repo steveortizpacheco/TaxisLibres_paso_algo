@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  	
+  	<link href="css/responsive.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19b6b371bd.js" crossorigin="anonymous"></script>
+	<title>Selecciona el caso</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,100' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<!-- inicio menu principal -->
+	<div class="container-fluid">
+		<div class="container-contenido_selec pading_top_3">
+      <h1 class="Texto_h1_v4">Cuéntanos más de lo sucedido</h1>
+      <h1 class="Texto_h1_v7">Inconvenientes con app / web</h1>
+		</div>
+		<div class="container-contenido pading_top_2">
+			<div class="row">
+  				<div class="col-md-6 texto_aling_left">
+             <div style="display: flex;">
+               <div class="col-md-5 padding_col">
+                 <h1 class="Texto_h1_v8">*¿Por qué medio sucedió?</h1>
+                 <div id="myDIV">
+                   <a href="incoveniente_app.html" style="text-decoration: none"><button class="boton-04 active" ><b>App</b></button></a>
+                   <a href="incoveniente_app_2.html" style="text-decoration: none"><button class="boton-04"><b>Web</b></button></a>
+                </div>
+                
+              </div>
+            </div>
+            <div style="width: 100%; height: 40px;"></div>
+            <div class="col-md-12 padding_col">
+              <h1 class="Texto_h1_v8">*¿Qué nos quieres contar?</h1>
+              <textarea class="form-control textarea" aria-label="With textarea"></textarea>
+            </div>
+            
+            <div class="espacio_footer_2"></div>
+            <a href="finalisar.html" style="text-decoration: none;"><button class="boton-01"><b>Siguiente</b></button></a>
+  				</div>
+  				<div class="col-md-6">
+          <div class="img_hola marco_imagen_2">
+          <img src="images/sucedio.png" class="imagen_hola_3" alt="necesita, ayuda, uno">
+          </div>
+          <div class="contenedor_preguntas_2">
+                  <div class="texto_preguntas">3 / 4 preguntas</div>
+              <div class="barra_preguntas">
+                <div class="barra_3"></div>
+              </div>
+            </div>    
+          </div>
+			</div>
+		</div>
+	</div>
+	<!--  fin menu principal -->
+	<!--  inicio footer
+	<footer>
+		<div class="contenedor_footer">
+			<div class="container-contenido-footer">
+				<div class="texto-footer">Somos una App 100% Colombiana que sigue moviendo el país</div>
+				<div class="redes-sociales espacio_iconos">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+					<a href=""><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	 fin footer -->
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("boton-04");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
